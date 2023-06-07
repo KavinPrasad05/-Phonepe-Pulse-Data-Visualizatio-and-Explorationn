@@ -2,7 +2,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 import warnings
-import pymysql
+import mysql.connector
+from sqlalchemy import create_engine
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 warnings.filterwarnings("ignore")
